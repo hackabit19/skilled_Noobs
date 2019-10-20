@@ -21,12 +21,18 @@ Numpy, NLTK,Spacy), GIT
 ## How To Use Our Platform
 
 1. Clone the repo `https://github.com/hackabit19/skilled_Noobs.git`.
-2. Run the command 
+2. Change the directory 
 ``` bash
     $ cd skilled_Noobs
 ```
-3. pip install -r requirements.txt
-3. flask run
+3. Run the command 
+```bash 
+    $ pip install -r requirements.txt
+```
+3. Start the server
+```
+$ flask run
+```
 
 ## Walkthrough
 
