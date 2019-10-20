@@ -16,11 +16,23 @@
     <div class="facets-ov-demo">
       <facets-overview id="elem"></facets-overview>
     </div>
+    <div>
+        <button>Click to get the updated details: </button>
+    </div>
     <script>
+          <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+  <script>
+    function get() {
+      var apiKey = "Your-API-Key";
+      var realtime = new Ably.Realtime(apiKey);
+      var channel = realtime.channels.get("hack");
+      channel.publish("update", { team: "Data uploaded and run Succesfully." });
+    }
       function showdata(){
         console.log(1234)
         document.querySelector("#elem").protoInput = '{{data}}'
       }
+        
       </script>
 </body>
 </html>
