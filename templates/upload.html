@@ -32,6 +32,12 @@
         console.log(1234)
         document.querySelector("#elem").protoInput = '{{data}}'
       }
+      
+      #Receeiving 
+     var channel = realtime.channels.get("hack");
+    channel.subscribe(function(msg) {
+      alert("Received: " + JSON.stringify(msg.data));
+    });
         
       </script>
 </body>
