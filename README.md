@@ -40,6 +40,8 @@ $ flask run
 2. Click Upload to visualise the dataset.
 3. Also, switch tables to get a in-depth picture of the dataset.
 
+NOTE: We have, our train.csv file for the demo purpose.
+
 ## Contributors
 
 Built with :purple_heart: by team ***skilled_Noobs***
